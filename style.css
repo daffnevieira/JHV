@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Jost', Arial, Helvetica, sans-serif;
+    background-color: #e0e0db;
+}
+header{
+    width: auto;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.966);
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+
+}
+ul li{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+}
+.img-cont{
+    height: 80vh;
+    background-image: url(architecture-3734552_1920.jpg);
+   
+}
+.about{
+    margin: 50px 100px 0 100px;
+    font-size: 25px;
+    
+}
+#text-about{
+    text-indent: 2cm;
+    text-align: justify;
+    line-height: 2cm;
+    font-size: 20px;
+}
+fieldset{
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #fff;
+    letter-spacing: 5px;
+    
+}
+.margin-form{
+    margin: 20px;
+    font-size: 20px;
+}
+.in-p{
+    font-size: 15px;
+    color: black;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+   
+}
+#mc-embedded-subscribe{
+    border-style: none;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Jost';
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+
+}
+@media screen and (max-width: 700px) {
+
+    body{
+        font-size: 7px;
+        text-align: center;
+        height: auto;
+    }
+    header{
+        width: auto;
+        height: auto;
+        font-size: 10px;     
+    }
+    ul li a{
+        display: none;
+    }
+    .img-cont{
+        height: 20vh;
+       
+    }
+    .about{
+        font-size: 10px;
+        margin: 10px;
+    }
+    #text-about{
+        text-indent: 0;
+        text-align: justify;
+        line-height: 10px;
+        font-size: 11px;
+        
+    }
+    fieldset{
+        margin: 10px;
+        text-align: center;
+        border-style: none;
+        border-radius: 7px;
+        background-color: #fff;
+        letter-spacing: 2px;
+        
+    }
+    article{
+        margin: 20px;
+    }
+    .margin-form{
+        margin: 10px;
+        font-size: 10px;
+    }
+    .in-p{
+        font-size: 10px;
+        color: black;
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid #333;
+        outline: none;
+        font-size: 10px;
+        margin: 5px;
+       
+    }
+    #mc-embedded-subscribe{
+        border-style: none;
+        border-radius: 5px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        font-family: 'Jost';
+        letter-spacing: 1px;
+        cursor: pointer;
+        padding: 4px;
+        margin: 4px;
+    
+    }
+
+}
